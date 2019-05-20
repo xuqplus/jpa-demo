@@ -5,8 +5,8 @@ import javax.persistence.*;
 @Entity
 public class UserEntity {
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
   String id;
+  @Column
   String name;
   @Version
   Long version;
@@ -36,5 +36,14 @@ public class UserEntity {
 
   public Long getVersion() {
     return version;
+  }
+
+  @Override
+  public String toString() {
+    return "UserEntity{" +
+            "id='" + id + '\'' +
+            ", name='" + name + '\'' +
+            ", version=" + version +
+            '}';
   }
 }
