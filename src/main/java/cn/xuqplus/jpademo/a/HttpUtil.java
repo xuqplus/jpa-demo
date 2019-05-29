@@ -1,6 +1,5 @@
-package cn.xuqplus.jpademo.util;
+package cn.xuqplus.jpademo.a;
 
-import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;

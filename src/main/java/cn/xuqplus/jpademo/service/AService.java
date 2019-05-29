@@ -1,6 +1,6 @@
 package cn.xuqplus.jpademo.service;
 
-import cn.xuqplus.jpademo.util.HttpUtil;
+import cn.xuqplus.jpademo.a.HttpUtil;
 import org.apache.http.HttpResponse;
 import org.apache.http.util.EntityUtils;
 import org.springframework.stereotype.Service;
